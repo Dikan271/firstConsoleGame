@@ -1,0 +1,15 @@
+	case '$': return "gold   ";
+	case '*': return "star   ";
+	case '@': return "shield ";
+	case '&': return "meat   ";
+	case '^': return "arrow  ";
+	case '/': return "sword  ";
+	case '%': return "powerUP";
+	case '+': return "exp    ";
+	case 'z': return "mn Mana";
+	case 'Z': return "mx Mana";
+	case 'x': return "mn HP  ";
+	case 'X': return "mx HP  ";
+	case 'T': return "bow    ";
+	case '0': return "helmet ";
+	default : return "unknow "
