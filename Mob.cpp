@@ -14,7 +14,7 @@ Mob::Mob(Position_XY position)
 
 void Mob::Move(Direction direction)
 {
-	iMove move(position);
+	iMove move{ position };
 	position = move.Move(direction);
 }
 

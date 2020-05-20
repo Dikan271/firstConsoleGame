@@ -146,7 +146,7 @@ void Game::CloseMenu()
 bool Game::SeeIfICanMove(Direction direction, Mob* moveMan)
 {
 	Position_XY positionOfPerson = moveMan->GetPosition();
-	iMove test(positionOfPerson);
+	iMove test{ positionOfPerson };
 	Position_XY newPosition = test.Move(direction);
 	bool isWall = location.CheckWall(newPosition);
 	return !isWall;
